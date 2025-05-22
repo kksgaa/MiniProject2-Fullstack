@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Binii</title>
+  <link rel="stylesheet" href="web.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Beranda</a>
+    <a href="Teman.html">Teman</a>
+    <a href="senjata.html">Senjata</a>
+    <a href="funfact.html">Fun Fact</a>
+  </nav>
+
+  <div class="container">
+    <div class="left-content">
+      <h1>Perkenalan Karakter</h1>
+      <h2>MEGUMIN</h2>
+      <p><span class="typewriter-text"></span></p>
+      <a href="https://konosuba.fandom.com/wiki/Megumin" target="_blank">
+        <button class="cta-button">Profile</button>
+      </a>
+    </div>
+    <div class="right-image">
+      <img src="img/Megumin.jpeg" alt="My Bini">
+    </div>
+  </div>
+  <script>
+    const text = "Waga Na Wa Megumin! Akuwizado wo nariwai toshi, saikyou no kougeki no mahou bakuretsu mahou ayatsuru!";
+
+    const speed = 100;
+    let i = 0;
+  
+    function typeWriter() {
+      if (i < text.length) {
+        document.querySelector(".typewriter-text").textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+  
+    window.onload = typeWriter;
+  </script>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang Kami</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Beranda</a>
+    <a href="Teman.html">Teman</a>
+    <a href="senjata.html">Senjata</a>
+    <a href="funfact.html">Fun Fact</a>
+  </nav>
+
+  <div class="content">
+    <h2>Tentang Kami</h2>
+    <div class="static-box">Ini posisi static</div>
+    <div class="relative-box">
+      Ini posisi relative
+      <div class="absolute-box">Ini posisi absolute</div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- produk.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Beranda</a>
+    <a href="Teman.html">Teman</a>
+    <a href="senjata.html">Senjata</a>
+    <a href="funfact.html">Fun Fact</a>
+  </nav>
+
+  <div class="content">
+    <h2>Produk Kami</h2>
+    <div class="box">Figure Megumin</div>
+    <div class="overflow-box">
+      <p>Ini deskripsi produk yang sangat panjang sehingga perlu scroll untuk melihat semuanya. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Proin sed turpis nec orci rhoncus laoreet. Quisque condimentum.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- display-demo.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Display CSS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Beranda</a>
+    <a href="Teman.html">Teman</a>
+    <a href="senjata.html">Senjata</a>
+    <a href="funfact.html">Fun Fact</a>
+  </nav>
+
+  <div class="content">
+    <h2>Contoh Display CSS</h2>
+    <div style="display: block; border: 1px solid red; margin: 5px;">Display: block</div>
+    <span style="display: inline; border: 1px solid green; margin: 5px;">Display: inline</span>
+    <div style="display: inline-block; border: 1px solid blue; margin: 5px; padding: 5px;">Display: inline-block</div>
+    <div style="display: none;">Display: none (sembunyi)</div>
+  </div>
+</body>
+</html>
+
+<!-- megumin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang Megumin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Beranda</a>
+    <a href="Teman.html">Teman</a>
+    <a href="senjata.html">Senjata</a>
+    <a href="funfact.html">Fun Fact</a>
+  </nav>
+
+  <div class="content">
+    <h2>Fun Fact</h2>
+    <p>Megumin adalah karakter utama dalam seri anime KonoSuba: God's Blessing on This Wonderful World! Ia adalah seorang Arch Wizard dari Crimson Demon Clan yang hanya bisa menggunakan satu jenis sihir — Explosion. Meski demikian, ia sangat terobsesi dengan kekuatan sihir ledakan tersebut dan menolak mempelajari sihir lainnya.</p>
+    <p>Kepribadian Megumin sangat unik dan dramatis. Ia sering berbicara dengan gaya teaterikal dan berperilaku eksentrik. Namun, dibalik sikap konyolnya, ia adalah penyihir berbakat yang sangat setia terhadap teman-temannya.</p>
+    <img src="C:\Users\ASUS\Videos\TUGAS KULIAH\sc\pulstack\img\meledak.png" alt="Megumin" class="megumin-img">
+  </div>
+</body>
+</html>
